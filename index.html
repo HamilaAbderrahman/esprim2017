@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>This is my first web app</title>
+    <!-- meta stuff -->
+    <meta charset="UTF-8">
+    <!-- Encodoage de notre fichier HTML -->
+    <meta name="author" content="Abderrahman Hamila"/>
+    <!-- cette meta garanti l'affichage de la page dans tout les devices et les screen resolutions -->
+    <meta name="viewport" content="width=device-width. initial-scale=1"/>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<!-- the content will go here -->
+<!-- les Titres (Heading)  -->
+<h1>Hello ESPRIM h1</h1>
+<h2>Hello ESPRIM h2</h2>
+<h3>Hello ESPRIM h3</h3>
+<h4>Hello ESPRIM h4</h4>
+<h5>Hello ESPRIM h5</h5>
+<h6>Hello ESPRIM h6</h6>
+
+<p>
+    Ceci
+    est
+    une
+    paragraphe
+</p>
+
+	<pre>Ceci 
+	   est 
+	   une 
+	      paragraphe pre
+		  </pre>
+
+<blockquote>
+    <q>this is a blockquote</q>
+    <q>this is a blockquote</q>
+</blockquote>
+
+<p><em>Hello</em></p>
+
+<p><strong>We are strong</strong></p>
+
+<p> 1<sub>0</sub></p>
+
+<p> 1<sup>0</sup></p>
+
+<p> é è & &eacute;</p>
+<!-- unordered list -->
+<ul>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+</ul>
+
+<!-- ordered list -->
+<ol>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+    <li>i'm a list item</li>
+</ol>
+
+<!-- Tables -->
+<table width="200px">
+    <caption>je suis un tableau</caption>
+    <thead>
+    <tr>
+        <th>One</th>
+        <th>two</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    </tbody>
+
+</table>
+
+<!-- image -->
+
+<img src="ionic.png"
+     alt="ceci est le texte alternatif"
+     width="50"
+     height="50"
+        />
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<!-- Les formulaires -->
+<h2>Les formulaires</h2>
+
+<form method="GET" action="#">
+
+    <div class="input-container">
+        <label for="username">Name: </label>
+        <input id="username" type="text" name="username" placeholder="Taper votre nom">
+    </div>
+    <div class="input-container">
+        <label for="date">Date: </label>
+        <input id="date" name="date" type="date" placeholder="Taper votre date">
+    </div>
+    <div class="input-container">
+        <label for="color">Color: </label>
+        <input id="color" name="color" type="color" value="#ffffff">
+    </div>
+    <div class="input-container">
+        <label for="password">Password: </label>
+        <input id="password" name="password" type="password" placeholder="Taper votre password">
+    </div>
+    <div class="input-container">
+        <label for="range">Range: </label>
+        <input id="range" type="range" name="range" placeholder="Taper votre password">
+
+    </div>
+    <div class="input-container">
+        <label for="number">Number: </label>
+        <input id="number" type="number" name="number">
+    </div>
+    <div class="input-container">
+        <label for="liste">Liste: </label>
+        <select id="liste" name="liste">
+            <option>mon option 1</option>
+            <option disabled>mon option 2</option>
+            <option>mon option 3</option>
+            <option selected>mon option 4 selectionnée par default</option>
+            <option>mon option 5</option>
+        </select>
+    </div>
+    <div class="input-container">
+        <label for="liste">Textarea: </label>
+        <textarea cols="50" rows="10" id="textarea" name="textearea"></textarea>
+    </div>
+
+    <button type="reset">Cancel</button>
+    <button type="submit">submit</button>
+</form>
+
+<hr>
+
+<h2>Classe et ID</h2>
+
+<p>
+	Ceci est un paragraphe. Ceci Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe.  Ceci est un paragraphe. Ceci est un paragraphe. 
+</p>
+
+<p class="maclassep">
+	Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. 
+</p>
+
+<p id="monidp" >
+	Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. 
+</p>
+
+<p class="maclassep">
+Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. Ceci est un paragraphe. 
+</p>
+
+<!-- element<class<ID -->
+
+<h2>Les liens</h2>
+<a 
+href="http://www.google.fr" 
+target="_blank" 
+title="lien vers google"
+>Go to google</a>
+
+<hr>
+<br>
+<div class="esprim">
+	<h1>ESPRIM</h1>
+
+	<h2 class="prepa">Cycle preparatoire</h2>
+	<h2 class="electro">Genie Electronique</h2>
+	<h2 class="info">Genie Informatique</h2>
+	<h2 class="indus">Genie Industriel</h2>
+	<h2 class="mecatros">Genie Mécatronique</h2>
+</div>
+<!--  Prositions -->
+<div class="overlay">
+       <img src="image-700x300.jpg" alt="monimage" width="700" height="300" >
+	   <span>Mon texte sur l'image</span>
+</div>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, massa a lacinia tincidunt, ante diam fringilla nibh, vel varius arcu diam ut leo. Nullam efficitur suscipit dolor, dignissim cursus neque sollicitudin quis. Duis vehicula enim in ex dictum, eget rhoncus eros porta. In iaculis lectus ut augue faucibus, at pharetra ligula finibus. Suspendisse eu felis pretium, tincidunt mi ac, dapibus quam. Aliquam vitae sapien at tellus interdum finibus a eu turpis. Mauris tristique cursus eleifend. Proin elementum, nisl eu mollis tincidunt, dolor ipsum iaculis tortor, vitae rutrum urna sem sed leo. Integer ac risus gravida, rhoncus dolor fermentum, aliquam nibh. Maecenas sit amet lectus et libero congue pulvinar.
+</p>
+
+
+
+<span id="fixed">
+	Je suis un contenu fixed dans <span>l'ecran.</span>
+</span>
+
+
+
+</body>
+</html>
